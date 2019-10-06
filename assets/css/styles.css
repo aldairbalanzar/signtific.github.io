@@ -1,0 +1,33 @@
+html, body {
+    background: #178cc2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2667e0, #178cc2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2674e0, #178cc2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+video {
+    object-fit: cover;
+    margin-left: 4%;
+    border-radius: 10%;
+    margin-bottom: 6%;
+}
+
+.button-txt {
+    background: rgba(52, 93, 151, 0.55);
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    width: 80%;
+    margin-top: 10%;
+    margin-bottom: 4%;
+    margin-left: 4%;
+    padding: 0px;
+    border-radius: 8%;
+}
+
+.button-img {
+    border-radius: 10%;
+    margin-left: 4%;
+    margin-bottom: 6%;
+}
